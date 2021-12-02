@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-var depth, dist int
+var depth, dist, aim int
 
 func main() {
 	f, err := os.Open("../input.txt")
